@@ -1,0 +1,8 @@
+<h5>Customers</h5>
+<ul  class = "list-group">
+    <li *ngFor = "let customer of customers" class="list-group-item">
+        {{customer.customerId}}
+        {{customer.userId}}
+        {{customer.companyName}}
+    </li>
+</ul>
